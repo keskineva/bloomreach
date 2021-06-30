@@ -1,0 +1,341 @@
+/content/documents/gogreen/banners:
+  .meta:order-before: about
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
+  jcr:uuid: 7e6cfa12-155d-4d9e-906f-98fe5f43a614
+  hippostd:foldertype: [new-banner-document, new-banner-folder]
+  hippotranslation:id: adb6c818-9412-444d-887e-2fd1c257984b
+  hippotranslation:locale: en
+  /banner1:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 895fb1b6-410d-4972-9894-6b6a06d2b361
+    /banner1:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: d83c8a15-0de3-4a43-be80-7591aaec2f4e
+      gogreen:title: Sample banner
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 007cacb1-bd50-4d3e-af52-cd4b7b9e10af
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 9e440e6d-e93a-4d5f-913b-9c3b0867c812
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /banner2:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
+    jcr:uuid: 9a3f1f5c-5302-43c4-9bec-584e810ffa2f
+    hippo:name: banner2
+    /banner2:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 5b221974-d876-4af8-867a-8cd409eed75c
+      gogreen:title: Sample banner 2
+      hippo:availability: [live, preview]
+      hippostd:holder: admin
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2014-03-20T17:00:00+01:00
+      hippostdpubwf:lastModificationDate: 2014-03-20T17:04:00+01:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2014-03-20T17:04:00+01:00
+      hippotranslation:id: 03aa4d13-38f0-438e-8b71-0fb0e585ad0c
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat.</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: dc6c2247-d3f4-4be0-976e-749b69927eee
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /10-simple-steps-to-green-your-office:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: e5bc0eb2-e7ad-4199-865d-7ad97a1c6742
+    hippo:name: 10 Simple Steps to Green Your Office
+    hippo:versionHistory: b1c23286-80da-4990-a87e-b9075b4cd5a3
+    /10-simple-steps-to-green-your-office[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 372deb8a-61f3-49d0-bc61-0f3060fec033
+      gogreen:title: 10 Simple Steps to Green Your Office
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T14:42:16.501+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T14:50:09.838+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 49440f72-2788-422b-bc4c-de528502132f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is how to green your office</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cfb8689f-8d8a-4815-a59b-414ce6957b58
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /10-simple-steps-to-green-your-office[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: bf15e2f1-4ec0-4df6-8fde-b23d0deded7c
+      gogreen:title: 10 Simple Steps to Green Your Office
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T14:42:16.501+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T14:50:09.772+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 49440f72-2788-422b-bc4c-de528502132f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is how to green your office</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cfb8689f-8d8a-4815-a59b-414ce6957b58
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /10-simple-steps-to-green-your-office[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 70c92756-e5cd-4fea-bd96-eaf9e9896ad1
+      gogreen:title: 10 Simple Steps to Green Your Office
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T14:42:16.501+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T14:50:09.772+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-06-30T14:50:13.091+03:00
+      hippotranslation:id: 49440f72-2788-422b-bc4c-de528502132f
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>this is how to green your office</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: cfb8689f-8d8a-4815-a59b-414ce6957b58
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /is-a-smart-thermostat-worth-the-investment:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 70a94508-3ec3-4fdf-840f-05415d662487
+    hippo:name: Is a Smart Thermostat Worth the Investment?
+    hippo:versionHistory: 07472851-dbfe-4464-95c7-4fd7ad3230da
+    /is-a-smart-thermostat-worth-the-investment[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 35aed9d5-f746-46fe-98dc-28269ad933c5
+      gogreen:title: Is a Smart Thermostat Worth the Investment?
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T14:48:37.674+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T14:48:59.552+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: cf343743-05bb-4a1c-8482-f772c356a8b7
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Is a Smart Thermostat Worth the Investment?</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ea522262-8050-4494-9d40-9f2abe508b3b
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /is-a-smart-thermostat-worth-the-investment[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: e9781b7f-17d1-49a0-8786-0013346e7c99
+      gogreen:title: Is a Smart Thermostat Worth the Investment?
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T14:48:37.674+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T14:48:59.505+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: cf343743-05bb-4a1c-8482-f772c356a8b7
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Is a Smart Thermostat Worth the Investment?</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ea522262-8050-4494-9d40-9f2abe508b3b
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /is-a-smart-thermostat-worth-the-investment[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 05d232b1-b7fa-4369-9637-ea7353d6ec1b
+      gogreen:title: Is a Smart Thermostat Worth the Investment?
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T14:48:37.674+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T14:48:59.505+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-06-30T14:50:15.808+03:00
+      hippotranslation:id: cf343743-05bb-4a1c-8482-f772c356a8b7
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>Is a Smart Thermostat Worth the Investment?</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: ea522262-8050-4494-9d40-9f2abe508b3b
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+  /how-to-green-your-dorm-room:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: bb12d5e5-9836-4313-b407-ad543017becc
+    hippo:name: How to Green Your Dorm Room
+    hippo:versionHistory: 4af3d6e6-4ca7-4b9b-8564-e16d06799722
+    /how-to-green-your-dorm-room[1]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 186e3116-0f90-4370-948d-f416f27e4bf3
+      gogreen:title: How to Green Your Dorm Room
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T14:49:30.694+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T14:49:41.254+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9e964b8d-fc2f-427e-b3d6-0845a35e3e6d
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>How to Green Your Dorm Room</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 61aa412c-d13f-462c-898a-d8c4b9585f3a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /how-to-green-your-dorm-room[2]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 59d12f33-23e1-45d5-9c3d-cbdea220d60c
+      gogreen:title: How to Green Your Dorm Room
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T14:49:30.694+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T14:49:41.132+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 9e964b8d-fc2f-427e-b3d6-0845a35e3e6d
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>How to Green Your Dorm Room</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 61aa412c-d13f-462c-898a-d8c4b9585f3a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe
+    /how-to-green-your-dorm-room[3]:
+      jcr:primaryType: gogreen:bannerdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 38d39186-0021-4c5d-b6d8-8cb46edb1583
+      gogreen:title: How to Green Your Dorm Room
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T14:49:30.694+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T14:49:41.132+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-06-30T14:50:18.503+03:00
+      hippotranslation:id: 9e964b8d-fc2f-427e-b3d6-0845a35e3e6d
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>How to Green Your Dorm Room</p>
+      /gogreen:image:
+        jcr:primaryType: hippogallerypicker:imagelink
+        hippo:docbase: 61aa412c-d13f-462c-898a-d8c4b9585f3a
+        hippo:facets: []
+        hippo:modes: []
+        hippo:values: []
+      /gogreen:link:
+        jcr:primaryType: hippo:mirror
+        hippo:docbase: cafebabe-cafe-babe-cafe-babecafebabe

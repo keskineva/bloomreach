@@ -1,0 +1,75 @@
+/content/documents/gogreen/about:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 14f3fee7-6a86-4c2f-ad54-741d6bd08407
+  hippo:name: About
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 9cf6b796-400d-46fa-9edd-a1e66945e529
+  hippotranslation:locale: en
+  /about:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['hippo:named', 'hippo:versionInfo', 'mix:referenceable']
+    jcr:uuid: 455f04aa-7f48-476f-9485-9b77d8f15e48
+    hippo:name: About
+    hippo:versionHistory: 1f2129f3-b09c-4674-be18-ab612a97d222
+    /about[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 2b926ab1-e35e-4387-9954-f7663fd642c7
+      gogreen:introduction: Demo website About GoGreen
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T15:14:49.844+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T15:16:38.570+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0d1ae462-6486-4cfe-a5d0-ce5f431de750
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /about[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 8d941dae-9e5a-47f7-aca9-58a70169f8e3
+      gogreen:introduction: Demo website About GoGreen
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T15:14:49.844+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T15:16:26+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 0d1ae462-6486-4cfe-a5d0-ce5f431de750
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
+    /about[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: ded2d486-c2e7-40c6-9d6c-cfeefeea5428
+      gogreen:introduction: Demo website About GoGreen
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: About GoGreen
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:retainable: false
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2021-06-30T15:14:49.844+03:00
+      hippostdpubwf:lastModificationDate: 2021-06-30T15:16:26+03:00
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2021-06-30T15:16:42.967+03:00
+      hippotranslation:id: 0d1ae462-6486-4cfe-a5d0-ce5f431de750
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: ''
